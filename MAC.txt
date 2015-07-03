@@ -1,0 +1,5 @@
+=MID(D3,1,2)&":"&MID(D3,4,2)&":"&MID(D3,7,2)&":"&MID(D3,10,2)&":"&MID(D3,13,2)&":"&MID(D3,16,2)
+
+=CONCATENATE(MID(D3;1;2);":";MID(D3;3;2);":";MID(D3;5;2);":";MID(D3;7;2);":";MID(D3;9;2);":";MID(D3;11;2))
+
+=REPLACE(D3,3,1,":")&REPLACE(D3,6,1,":")&REPLACE(D3,9,1,":")&REPLACE(D3,12,1,":")&REPLACE(D3,15,1,":")
